@@ -1,0 +1,44 @@
+body {
+    background-color: #1c1c1c;  
+  }
+  
+  .avatar {
+    position: relative;
+    height: 96px;
+    width: 96px;
+  }
+  
+  .avatar_conteudo {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 58px;
+    color: #ffffff;
+    background-color: #02887a;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+  }
+  
+  .avatar_imagen {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .avatar_badge {
+    position: absolute;
+    color: #000000;
+    background-color: #80b800;
+    bottom: -10px;
+    left:calc(50% - 9px);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  
